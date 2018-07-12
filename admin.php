@@ -71,7 +71,6 @@
           $sport = $row["Sport"];
           $education = $row["Education"];
           $events = $row["Events"];
-          echo '<pre>' .var_dump($local) . '</pre>';
 
           ?>
           <form class="admin-form" action="includes/submitArticle.php" method="post" enctype="multipart/form-data">
